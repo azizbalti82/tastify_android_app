@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="20dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorCard"
+        >
+        <LinearLayout
+            android:background="@drawable/form_input_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/form_input_background_half"
+                android:hint="Search for recipes"
+                android:textColorHint="@color/textSecondary"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                />
+            <FrameLayout
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/search"
+                    app:tint="@color/textSecondary"
+                    android:layout_gravity="center"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- recent searches -->
+    <TextView
+        android:id="@+id/recent_searches_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent searches"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:nestedScrollingEnabled="false"
+        />
+</LinearLayout>

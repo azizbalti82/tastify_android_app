@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="35dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add item"
+        android:textColor="@color/textPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: 5 eggs"
+        android:textColorHint="@color/textSecondary"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:background="@drawable/form_input_background_black"
+        android:textColor="@color/textPrimary"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:textAllCaps="false"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"/>
+
+
+
+</LinearLayout>

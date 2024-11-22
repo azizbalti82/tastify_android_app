@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Colors -->
+    <color name="colorPrimary">#E6663F</color> <!-- Primary Orange -->
+    <color name="colorPrimaryCard">#34FF7043</color>
+    <color name="colorPrimaryCardRed">#19E01010</color>
+    <color name="colorPrimaryIcon">#A5FF7043</color>
+    <color name="colorSecondary">#FF9800</color> <!-- Secondary Orange -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White Background -->
+    <color name="colorSurface">#E9EBEBEB</color> <!-- Surface Color (lighter for cards) -->
+    <color name="colorCard">#7CEBEBEB</color>
+    <color name="colorError">#D32F2F</color> <!-- Error Color -->
+    <color name="textPrimary">#212121</color> <!-- Text Color Primary -->
+    <color name="textSecondary">#757575</color> <!-- Text Color Secondary -->
+    <color name="textOnPrimary">#FFFFFF</color> <!-- Text on primary (white on orange) -->
+    <color name="textOnSurface">#212121</color> <!-- Text on surface -->
+    <color name="tag_green">#CBF2D7</color>
+    <color name="tag_orange">#F2D7CB</color>
+    <color name="tag_blue">#CBDCF2</color>
+</resources>

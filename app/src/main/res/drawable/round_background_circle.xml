@@ -1,0 +1,6 @@
+<shape android:shape="oval"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorPrimaryCard"/>
+    <size android:width="140dp" android:height="140dp"/>
+    <corners android:radius="10dp"/>
+</shape>

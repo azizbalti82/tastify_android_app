@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Colors -->
+    <color name="colorPrimary">#DC623C</color> <!-- Brighter Primary Orange -->
+    <color name="colorPrimaryCard">#B6FF8A65</color> <!-- Slightly brighter for visibility -->
+    <color name="colorPrimaryCardRed">#48FF5252</color> <!-- Brighter red for dark backgrounds -->
+    <color name="colorPrimaryIcon">#F47A59</color> <!-- Light orange for icons -->
+    <color name="colorSecondary">#FFB74D</color> <!-- Lighter secondary orange -->
+    <color name="colorBackground">#121212</color> <!-- Black Background -->
+    <color name="colorSurface">#444444</color> <!-- Surface Color (dark for cards) -->
+    <color name="colorCard">#353535</color> <!-- Darker surface color for cards -->
+    <color name="colorError">#CF6679</color> <!-- Pinkish-red for dark mode errors -->
+    <color name="textPrimary">#FFFFFF</color> <!-- White Text Primary -->
+    <color name="textSecondary">#BDBDBD</color> <!-- Light Gray Text Secondary -->
+    <color name="textOnPrimary">#212121</color> <!-- Black text on bright primary -->
+    <color name="textOnSurface">#FFFFFF</color> <!-- White text on surface -->
+    <color name="tag_green">#56C596</color> <!-- Muted green for tags -->
+    <color name="tag_orange">#C78556</color> <!-- Muted orange for tags -->
+    <color name="tag_blue">#5677C5</color> <!-- Muted blue for tags -->
+</resources>

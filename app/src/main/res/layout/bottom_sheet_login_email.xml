@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/textPrimary"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="write your email and password"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/textSecondary"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:background="@drawable/form_input_background"
+        android:textColor="@color/textPrimary"
+        android:textSize="16sp" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/textSecondary"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@drawable/form_input_background"
+        android:textColor="@color/textPrimary"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/forgot_password"
+            android:paddingHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot your password ?"
+            android:textColor="@color/textPrimary"
+            android:textSize="15sp"
+            android:gravity="start"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar_forgot_password"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:indeterminateTint="@android:color/white"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        android:layout_marginTop="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            >
+            <ProgressBar
+                android:id="@+id/progressBar_log_in"
+                android:layout_marginEnd="10dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:visibility="gone"
+                android:indeterminate="true"
+                android:indeterminateTint="@android:color/white"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823692771905",
+    "project_id": "tastify-5aaf6",
+    "storage_bucket": "tastify-5aaf6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823692771905:android:8ea7b065009944b86cbcc0",
+        "android_client_info": {
+          "package_name": "com.balti.tastify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjOmeEEh9SJd4ASR2dB4FbSKhd1APoSrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

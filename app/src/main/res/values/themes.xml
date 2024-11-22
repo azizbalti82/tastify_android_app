@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tastify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="background">@color/colorBackground</item>
+        <item name="bottomSheetDialogTheme">@style/bottomsheettheme</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:colorAccent">@color/colorPrimary</item> <!-- the color of buttons , toggles check box, .... -->
+
+        <!-- Transparent status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+
+
+
+        <item name="popupMenuBackground">@color/colorBackground</item>
+    </style>
+
+    <!-- splash screen as a theme -->
+    <style name="splash_screen" parent="tastify">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+    </style>
+
+    <!-- set round corners background to the bottom sheet -->
+    <style name="bottomsheetstyle" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <style name="bottomsheettheme" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomsheetstyle</item>
+    </style>
+
+
+    <!-- define a style to make images corners round -->
+    <style name="RoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item> <!-- Adjust the corner size as needed -->
+    </style>
+    <style name="CircleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Adjust the corner size as needed -->
+    </style>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="35dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select avatar"
+        android:textColor="@color/textPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:id="@+id/avatar1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_1"
+            android:layout_marginEnd="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/avatar2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_2"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:id="@+id/avatar3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_3"
+            android:layout_marginEnd="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/avatar4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_4"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/avatar5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_5"
+            android:layout_marginEnd="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/avatar6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_6"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:id="@+id/avatar7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_7"
+            android:layout_marginEnd="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/avatar8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_8"
+            />
+    </LinearLayout>
+
+</LinearLayout>

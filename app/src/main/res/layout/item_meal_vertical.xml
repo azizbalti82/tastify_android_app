@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorCard"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:padding="10dp"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image"
+                android:src="@color/colorCard"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:shapeAppearanceOverlay="@style/RoundedImage"
+                android:layout_gravity="center"
+                android:layout_marginEnd="15dp"
+                />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="my dinner"
+                android:textColor="@color/textPrimary"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/save"
+                android:src="@drawable/save_not_filled"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                app:tint="@color/textPrimary"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
